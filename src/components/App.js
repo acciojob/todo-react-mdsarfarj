@@ -36,7 +36,7 @@ const App = () => {
             <li key={index}>
               <div className="todo-item">
                 <p>{todo}</p>
-                <button onClick={() => handleDelete(index)}>Delete</button>
+                <button onClick={() => handleDelete(index)}></button>
               </div>
             </li>
           );
